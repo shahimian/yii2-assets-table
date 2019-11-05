@@ -1,0 +1,35 @@
+$red: #EF233C;
+$white: #EDF2F4;
+
+table {
+    width: 100%;
+}
+table.acc-table {
+    border-spacing: 0;
+}
+table.acc-table tbody tr {
+    background-color: #8D99AE;
+}
+table.acc-table tbody tr:nth-child(even) {
+    background-color: #dddddd;
+}
+table.acc-table thead tr, .archive-box, .pagination li {
+    background-color: #2B2D42;
+    color: $white;
+    font-weight: bold;
+    text-align: center;
+}
+table.view tbody tr td {
+    text-align: justify!important;
+}
+table td, table + p {
+    padding: 3px;
+}
+table.acc-table tbody tr.warning, table.acc-table tbody td.warning {
+    background-color: $red;
+    color: $white;
+    font-weight: bold;
+}
+table.acc-table tbody tr td:not(:nth-child(3)) {
+    text-align: center;
+}

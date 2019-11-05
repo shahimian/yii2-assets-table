@@ -1,0 +1,23 @@
+{
+    "name": "shahimian/yii2-assets-table",
+    "description": "Various style for grid table",
+    "type": "yii2-extension",
+    "minimum-stability": "dev",
+    "keywords": ["yii2","extension","assets","table","style","css"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammadali Shahimian",
+            "email": "shahimian@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "shahimian/yii2-persian-fonts": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "assets\\table\\": ""
+        }
+    }
+}
